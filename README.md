@@ -6,7 +6,7 @@ Foi configurado um servidor Linux responsável por responder às requisições d
 Simular um ambiente de rede real para compreender na prática como ocorre a comunicação entre cliente e servidor, além de desenvolver habilidades em configuração de sistemas e diagnóstico de rede.
 
 <p align="center">
-<img width="650" alt="Diagrama Cliente Servidor" src="https://github.com/user-attachments/assets/eb81d88c-834e-4351-a3bc-0ad9bbd402e0"/>
+<img width="550" alt="Diagrama Cliente Servidor" src="https://github.com/user-attachments/assets/eb81d88c-834e-4351-a3bc-0ad9bbd402e0"/>
 </p>
 
 O cliente foi configurado em uma máquina Kali Linux responsável por realizar requisições ao servidor Ubuntu.
