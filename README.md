@@ -6,12 +6,16 @@ Foi configurado um servidor Linux responsável por responder às requisições d
 Simular um ambiente de rede real para compreender na prática como ocorre a comunicação entre cliente e servidor, além de desenvolver habilidades em configuração de sistemas e diagnóstico de rede.
 
 <p align="center">
-<img width="151" height="291" alt="Diagrama Cliente Servidor" src="https://github.com/user-attachments/assets/eb81d88c-834e-4351-a3bc-0ad9bbd402e0"/>
+<img width="650" alt="Diagrama Cliente Servidor" src="https://github.com/user-attachments/assets/eb81d88c-834e-4351-a3bc-0ad9bbd402e0"/>
 </p>
+
+O cliente foi configurado em uma máquina Kali Linux responsável por realizar requisições ao servidor Ubuntu.
+A comunicação ocorreu via rede NAT, permitindo testes de conectividade e acesso aos serviços hospedados.
 
 ## Tecnologias
 
-- VirtualBox com Kali Linux
+- VirtualBox
+- Kali Linux
 - Ubuntu Server
 - SSH
 - Protocolo TCP/IP
@@ -47,6 +51,14 @@ A solução foi ajustar as regras utilizando o UFW para liberar a porta 80.
 - Configuração de redes virtuais
 - Noções de segurança com firewall
 - Diagnóstico de falhas de conectividade
+
+## Como reproduzir o projeto:
+
+1. Criar duas VMs no VirtualBox
+2. Configurar rede NAT
+3. Instalar Ubuntu Server
+4. Instalar Nginx
+5. Liberar porta 80 no UFW
 
 
 
