@@ -15,7 +15,7 @@ Simular um ambiente de rede real para compreender na prática como ocorre a comu
 - Protocolo TCP/IP
 - Configuração de rede NAT
 
-## ![Etapas do Projeto](https://img.shields.io/badge/Etapas_do_Projeto-red?style=for-the-badge)
+## 🚨 Etapas do Projeto
 
 - Criação das máquinas virtuais
 - Instalação do sistema operacional Linux
