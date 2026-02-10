@@ -23,3 +23,28 @@ Simular um ambiente de rede real para compreender na prática como ocorre a comu
 - Instalação do servidor web
 - Liberação de portas no firewall
 - Testes de comunicação entre cliente e servidor
+
+## Testes
+
+✔ Ping entre as máquinas  
+✔ Acesso ao servidor via navegador  
+✔ Conexão remota utilizando SSH  
+✔ Validação das portas abertas
+
+
+## Desafios
+
+Durante a implementação, a máquina cliente não conseguia acessar o servidor.
+
+Após análise, identifiquei que o firewall estava bloqueando a comunicação.  
+A solução foi ajustar as regras utilizando o UFW para liberar a porta 80.
+
+## Aprendizados
+
+- Funcionamento prático do modelo cliente-servidor
+- Configuração de redes virtuais
+- Noções de segurança com firewall
+- Diagnóstico de falhas de conectividade
+
+
+
